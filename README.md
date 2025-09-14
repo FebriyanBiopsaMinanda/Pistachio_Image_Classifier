@@ -81,5 +81,7 @@ Performa model berdasarkan evaluasi:
 ---
 
 ## 🏆 Kesimpulan
-Hasil evaluasi menunjukkan bahwa **Multi-Layer Perceptron (MLP)** dan **Support Vector Classifier (SVC)** adalah model dengan performa terbaik, masing-masing mencapai akurasi lebih dari 93% dengan nilai precision, recall, dan f1-score yang konsisten tinggi. Model linear seperti **Logistic Regression** dan metode ensemble seperti **AdaBoost** dan **Gradient Boosting** juga memberikan hasil yang kompetitif dengan akurasi sekitar 91%. Sementara itu, **Random Forest** dan **KNN** masih memberikan hasil yang baik, namun sedikit lebih rendah dibandingkan model lainnya. Secara keseluruhan, pendekatan berbasis **Neural Network (MLP)** terbukti paling efektif untuk klasifikasi pistachio dalam eksperimen ini karena mampu menangkap pola kompleks dalam data dengan performa seimbang di semua metrik evaluasi.
+Hasil evaluasi menunjukkan bahwa Multi-Layer Perceptron (MLP) dan Support Vector Classifier (SVC) adalah model dengan performa terbaik, masing-masing mencapai akurasi lebih dari 93% dengan nilai precision, recall, dan f1-score yang konsisten tinggi. Model linear seperti Logistic Regression serta metode ensemble seperti AdaBoost dan Gradient Boosting juga memberikan hasil yang kompetitif dengan akurasi sekitar 91%. Sementara itu, Random Forest dan KNN masih memberikan hasil yang baik, namun sedikit lebih rendah dibandingkan model lainnya.  
+
+Secara keseluruhan, pendekatan berbasis Neural Network (MLP) terbukti paling efektif untuk klasifikasi pistachio dalam eksperimen ini karena mampu menangkap pola kompleks dalam data dengan performa seimbang di semua metrik evaluasi.
 ---
