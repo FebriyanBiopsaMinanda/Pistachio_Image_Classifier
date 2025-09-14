@@ -35,28 +35,23 @@ Dataset terdiri dari:
    - Membaca data Excel (28 fitur)  
    - Memetakan gambar ke tiap label
 
-3. **Pembersihan Data 🧹**  
-   - Cek missing values  
-   - Penyelarasan label dan path gambar  
-
-4. **EDA (Exploratory Data Analysis) 🔎**  
+3. **EDA (Exploratory Data Analysis) 🔎**  
    - Distribusi kelas (Kirmizi vs Siit)  
    - Statistik deskriptif fitur utama  
    - Visualisasi distribusi fitur shape & warna  
 
-5. **Preprocessing ⚙️**  
+4. **Data Mining ⛏️**  
    - Standardisasi fitur numerik (StandardScaler)  
    - PCA (Principal Component Analysis) untuk reduksi dimensi  
-   - Augmentasi gambar (ImageDataGenerator) untuk memperkuat data latih  
 
 6. **Modeling 🤖**  
    Algoritma yang diterapkan meliputi:  
    - 🌲 **Random Forest**  
-   - ⚡ **Support Vector Machine (SVM)**  
-   - 👟 **K-Nearest Neighbors (KNN)**  
-   - 📊 **Logistic Regression**  
+   - 🌀 **Support Vector Classifier (SVC)**  
+   - 🗺️ **K-Nearest Neighbors (KNN)**  
+   - 🎯 **Logistic Regression**  
    - 🧠 **Neural Network (MLPClassifier & Keras Sequential)**  
-   - 🚀 **Boosting (AdaBoost, Gradient Boosting)**  
+   - 🔥 **Boosting (AdaBoost, Gradient Boosting)**  
 
    Evaluasi dilakukan dengan:
    - **Confusion Matrix**  
@@ -71,11 +66,11 @@ Performa model berdasarkan evaluasi:
 | Model                  | Accuracy | Precision (avg) | Recall (avg) | F1-Score (avg) |
 |-------------------------|----------|-----------------|--------------|----------------|
 | 🌲 Random Forest        | 89.07%   | 0.89            | 0.89         | 0.89           |
-| ⚡ Support Vector Classifier | 93.02%   | 0.93            | 0.93         | 0.93           |
-| 📊 Logistic Regression  | 91.86%   | 0.92            | 0.92         | 0.92           |
-| 👟 KNN Classifier       | 90.00%   | 0.90            | 0.90         | 0.90           |
-| 🚀 AdaBoost             | 91.16%   | 0.91            | 0.91         | 0.91           |
-| 🌳 Gradient Boost       | 90.93%   | 0.91            | 0.91         | 0.91           |
+| 🌀 Support Vector Classifier | 93.02%   | 0.93            | 0.93         | 0.93           |
+| 🎯 Logistic Regression  | 91.86%   | 0.92            | 0.92         | 0.92           |
+| 🗺️ KNN Classifier       | 90.00%   | 0.90            | 0.90         | 0.90           |
+| 🔥 AdaBoost             | 91.16%   | 0.91            | 0.91         | 0.91           |
+| 🌟 Gradient Boost       | 90.93%   | 0.91            | 0.91         | 0.91           |
 | 🧠 Multi-Layer Perceptron (MLP) | **93.26%** | **0.93** | **0.93** | **0.93** |
 
 ---
