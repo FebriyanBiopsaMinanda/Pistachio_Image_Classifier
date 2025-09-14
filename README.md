@@ -66,20 +66,20 @@ Dataset terdiri dari:
 ---
 
 ## 📈 Hasil Prediksi
-Performa model (berdasarkan laporan notebook):
+Performa model berdasarkan evaluasi:
 
-| Model                  | Akurasi | Keterangan Singkat |
-|-------------------------|---------|--------------------|
-| 🌲 Random Forest        | ± **97–99%** | Performa sangat tinggi, stabil pada kedua kelas |
-| ⚡ SVM                  | ± 95%   | Bagus, namun kadang salah klasifikasi di kelas minor |
-| 👟 KNN                  | ± 93%   | Cukup baik, sensitif pada parameter k |
-| 📊 Logistic Regression  | ± 92%   | Linear model, performa sedikit di bawah tree-based |
-| 🧠 Neural Network (MLP) | ± 96%   | Bagus, mampu generalisasi dengan baik |
-| 🚀 AdaBoost / GBM       | ± 95–97% | Performa tinggi, sedikit lebih lama dilatih |
+| Model                  | Accuracy | Precision (avg) | Recall (avg) | F1-Score (avg) |
+|-------------------------|----------|-----------------|--------------|----------------|
+| 🌲 Random Forest        | 89.07%   | 0.89            | 0.89         | 0.89           |
+| ⚡ Support Vector Classifier | 93.02%   | 0.93            | 0.93         | 0.93           |
+| 📊 Logistic Regression  | 91.86%   | 0.92            | 0.92         | 0.92           |
+| 👟 KNN Classifier       | 90.00%   | 0.90            | 0.90         | 0.90           |
+| 🚀 AdaBoost             | 91.16%   | 0.91            | 0.91         | 0.91           |
+| 🌳 Gradient Boost       | 90.93%   | 0.91            | 0.91         | 0.91           |
+| 🧠 Multi-Layer Perceptron (MLP) | **93.26%** | **0.93** | **0.93** | **0.93** |
 
 ---
 
 ## 🏆 Kesimpulan
-Berdasarkan hasil eksperimen, model **Random Forest** dan **Gradient Boosting** menunjukkan performa terbaik dengan akurasi mendekati 99%, menjadikannya pilihan paling andal untuk klasifikasi pistachio. Fitur berbasis bentuk seperti *Area*, *Perimeter*, dan *Eccentricity* terbukti sangat penting dalam membedakan kedua kelas, sementara fitur warna menambah variasi informasi untuk meningkatkan akurasi model. Penerapan **PCA** membantu mempercepat proses training tanpa mengurangi kualitas prediksi secara signifikan. Selain itu, **Neural Network** juga memberikan performa yang kompetitif, namun Random Forest lebih stabil serta lebih mudah diinterpretasi. Secara keseluruhan, pendekatan berbasis ensemble tree terbukti paling efektif dalam mengklasifikasikan jenis pistachio dengan presisi tinggi.
-
+Hasil evaluasi menunjukkan bahwa **Multi-Layer Perceptron (MLP)** dan **Support Vector Classifier (SVC)** adalah model dengan performa terbaik, masing-masing mencapai akurasi lebih dari 93% dengan nilai precision, recall, dan f1-score yang konsisten tinggi. Model linear seperti **Logistic Regression** dan metode ensemble seperti **AdaBoost** dan **Gradient Boosting** juga memberikan hasil yang kompetitif dengan akurasi sekitar 91%. Sementara itu, **Random Forest** dan **KNN** masih memberikan hasil yang baik, namun sedikit lebih rendah dibandingkan model lainnya. Secara keseluruhan, pendekatan berbasis **Neural Network (MLP)** terbukti paling efektif untuk klasifikasi pistachio dalam eksperimen ini karena mampu menangkap pola kompleks dalam data dengan performa seimbang di semua metrik evaluasi.
 ---
