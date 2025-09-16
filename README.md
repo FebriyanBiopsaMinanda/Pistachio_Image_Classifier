@@ -1,7 +1,7 @@
 # 🌰 Pistachio Classification
 
 ## 📌 Deskripsi
-Project ini bertujuan untuk **membedakan dua jenis pistachio** (Kirmizi Pistachio dan Siit Pistachio) berdasarkan **fitur citra** (image features) serta dataset gambar.  
+Project ini bertujuan untuk **membedakan dua jenis pistachio** (Kirmizi Pistachio dan Siit Pistachio) berdasarkan **fitur citra** (image features), dataset gambar serta data excel.  
 Dengan memanfaatkan algoritma **machine learning dan deep learning**, project ini melakukan klasifikasi menggunakan berbagai pendekatan seperti Random Forest, SVM, KNN, Logistic Regression, Neural Network, dan Boosting Models.
 
 ---
